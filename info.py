@@ -18,16 +18,16 @@ API_HASH = environ.get('API_HASH', 'e3096dde3e27c72a50e0e53d8ab23d6a')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7861690278').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/Baii_Ji")
+USERNAME = environ.get('USERNAME', "https://telegram.me/darkworld008")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002635667025'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+xid7xzHRfucyMjc1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/UniformMoviesGroup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002487267521').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mahatobibek221034:FA1aFnrrZJH1j65U@cluster0.qalogrz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Sandhu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Akmovie')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002635667025'))
-QR_CODE = environ.get('QR_CODE', 'https://envs.sh/8Hn.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://envs.sh/uRY.jpg')
 START_IMG = environ.get('START_IMG', 'https://envs.sh/fHy.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002783635871'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002783635871'))
