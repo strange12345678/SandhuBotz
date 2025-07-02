@@ -17,9 +17,9 @@ API_ID = int(environ.get('API_ID', '29882686'))
 API_HASH = environ.get('API_HASH', 'b642a25aee67b2aed02116df4a916bca')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6316008361 6157414954 6796307271').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7861690278').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Baii_Ji")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002122152204'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002635667025'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+xid7xzHRfucyMjc1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002487267521').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Sandhu:Sandhu@mrtamilkid.m9cuk.mongodb.net/?retryWrites=true&w=majority&appName=MrTamilKiD")
